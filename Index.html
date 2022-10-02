@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <style>
+    body{
+      background: url(6.jpg);
+    }
+
+    .page-wrapper{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows:250px auto auto;
+      grid-template-areas: "header header"
+      "container container";
+    }
+  
+    header{
+      grid-area:header;
+      padding-bottom: 8px;
+      margin-top: 8px;
+    }
+  
+    .container{
+      grid-area:container;
+      display:flex;
+      align-items:flex-start;
+      flex-direction: row;
+      border-top-style:double;
+    }
+  
+    .main{
+      width:70%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    aside{
+      width:30%;
+      display:inline-block;
+      text-align: center;
+    }
+  
+    footer{
+        position:absolute;
+        width:100%;
+        justify-content: left;
+    }
+
+    nav ul{
+      margin: 5px;
+      padding: 10px;
+      overflow: hidden;
+      list-style-type: none;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    nav ul li{
+      padding: 1px;
+    }
+
+    nav:hover li img{
+      width:95%;
+    }
+
+    nav li img:hover{
+      width: 105%;
+    }
+
+    .text{
+      color: dimgrey;
+      font-weight:lighter;
+      font-size: xx-small;
+      text-align: center;
+      position: absolute;
+    }
+
+    .button{
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      color: dimgrey;
+      padding:8px 16px;
+      margin:1px 0px;
+      background-color:antiquewhite;
+      opacity: 0.5;
+    }
+
+    .button a{
+      text-decoration: none;
+    }
+
+    .button:hover{
+      color:antiquewhite;
+      background-color:dimgrey;
+    }
+
+    .boxx{
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+
+  </style>
+
+  <link rel="stylesheet" media="screen" href="style.css">
+
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1 align="center">My First HTML Page</h1>
+      <h3 align="center">Below you can find the navigation.Please click the picture.😊</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="assignmento.html">
+              <img src=1.jpg >
+            </a>
+              <div class="text">Assignment 1</div>
+          </li>
+          <li>
+            <a href="assignmenttwo.html">
+              <img src=2.jpg>              
+            </a>
+              <div class="text">Assignment 2</div>
+          </li>  
+          <li>
+            <a href="assignmentthr.html">
+              <img src=3.jpg>
+            </a>
+              <div class="text">Assignment 3</div>
+          </li>
+          <li>
+            <a href="assignment4.html">
+              <img src=4.jpg>
+            </a>
+              <div class="text">Assignment 4</div>
+          </li> 
+          <li>
+            <a href="assignment5.html">
+              <img src=5.jpg>
+            </a>
+              <div class="text">Assignment 5</div>
+          </li>     
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="main">
+        <div class="boxx">
+        <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat, enim eu finibus facilisis, lacus leo consectetur lectus, et euismod ligula purus scelerisque turpis. Sed ut nisl sed ex rutrum vehicula. Proin et metus eget mauris interdum maximus et sit amet elit. Sed faucibus orci eu lorem ornare, at tristique urna tincidunt. Morbi interdum commodo lacus vitae sagittis. Phasellus ante leo, mollis in magna in, porta faucibus ipsum. Aenean consequat leo ligula, in luctus turpis vulputate vitae. Donec leo erat, consequat eget massa sed, lacinia efficitur risus. Cras volutpat, massa sed egestas lobortis, urna sapien imperdiet diam, vitae lobortis urna odio nec elit. Quisque scelerisque massa quis tellus tristique sodales. Nullam fringilla, metus id egestas pharetra, erat augue tincidunt nibh, a fringilla erat tortor eu tortor. Sed condimentum nibh eros, ut faucibus mi bibendum et. Cras diam lacus, viverra venenatis turpis nec, facilisis luctus neque. Cras fermentum magna ipsum, nec mollis tellus pulvinar vel. Vivamus eget semper libero. Nullam nibh sapien, pulvinar a porta euismod, blandit eget ipsum.
+        </h5>
+      <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat, enim eu finibus facilisis, lacus leo consectetur lectus, et euismod ligula purus scelerisque turpis. Sed ut nisl sed ex rutrum vehicula. Proin et metus eget mauris interdum maximus et sit amet elit. Sed faucibus orci eu lorem ornare, at tristique urna tincidunt. Morbi interdum commodo lacus vitae sagittis. Phasellus ante leo, mollis in magna in, porta faucibus ipsum. Aenean consequat leo ligula, in luctus turpis vulputate vitae. Donec leo erat, consequat eget massa sed, lacinia efficitur risus. Cras volutpat, massa sed egestas lobortis, urna sapien imperdiet diam, vitae lobortis urna odio nec elit. Quisque scelerisque massa quis tellus tristique sodales. Nullam fringilla, metus id egestas pharetra, erat augue tincidunt nibh, a fringilla erat tortor eu tortor. Sed condimentum nibh eros, ut faucibus mi bibendum et. Cras diam lacus, viverra venenatis turpis nec, facilisis luctus neque. Cras fermentum magna ipsum, nec mollis tellus pulvinar vel. Vivamus eget semper libero. Nullam nibh sapien, pulvinar a porta euismod, blandit eget ipsum.
+      </h5>
+        </div>
+        <footer>
+          <div>
+          <nav>
+            <ul>
+              <li class="button">
+               <a href="assignmento.html"> Assignment1</a>
+              </li>
+              <li class="button">
+                <a href="assignmenttwo.html"> Assignment2</a>
+               </li>
+               <li class="button">
+                <a href="assignmentthr.html"> Assignment3</a>
+               </li>
+               <li class="button">
+                <a href="assignment4.html"> Assignment4</a>
+               </li>
+               <li class="button">
+                <a href="assignment5.html"> Assignment5</a>
+               </li>
+            </ul>           
+          </nav>
+          </div>
+        </footer>
+      </div>
+      <aside>
+        <h3 color:black;>
+        Click to learn more:
+        </h3>
+          <nav>
+           <ul>
+             <li class="button">
+              <a href=""> MY JOURNAL</a>
+             </li>
+           </ul>
+          </nav>
+      </aside>
+    </div>
+  </div>
+  
+
+  
+</body>
+</html>

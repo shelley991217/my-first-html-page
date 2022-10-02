@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .page-wrapper{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows:auto auto auto;
+      grid-template-areas: "header header"
+      "container container";
+    }
+  
+    header{
+      grid-area:header;
+      padding-bottom: 8px;
+      margin-top: 8px;
+    }
+  
+    .container{
+      grid-area:container;
+      display:flex;
+      align-items:flex-start;
+      flex-direction: row;
+    }
+  
+    .main{
+      width:70%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    aside{
+      width:30%;
+      display:inline-block;
+      text-align: center;
+      padding: 10px 50px;
+    }
+
+    .boxx{
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+
+    .button{
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      justify-content: center;
+      color: dimgrey;
+      padding:8px 16px;
+      margin:1px 0px;
+      background-color:antiquewhite;
+    }
+
+    .button a{
+      text-decoration: none;
+    }
+
+    .button:hover{
+      color:antiquewhite;
+      background-color:dimgrey;
+    }
+  </style>
+
+  <link rel="stylesheet" media="screen" href="style.css">
+
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1 align="center">Assignment5</h1>
+    </header>
+    <div class="container">
+      <div class="main">
+        <div class="boxx">
+        <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat, enim eu finibus facilisis, lacus leo consectetur lectus, et euismod ligula purus scelerisque turpis. Sed ut nisl sed ex rutrum vehicula. Proin et metus eget mauris interdum maximus et sit amet elit. Sed faucibus orci eu lorem ornare, at tristique urna tincidunt. Morbi interdum commodo lacus vitae sagittis. Phasellus ante leo, mollis in magna in, porta faucibus ipsum. Aenean consequat leo ligula, in luctus turpis vulputate vitae. Donec leo erat, consequat eget massa sed, lacinia efficitur risus. Cras volutpat, massa sed egestas lobortis, urna sapien imperdiet diam, vitae lobortis urna odio nec elit. Quisque scelerisque massa quis tellus tristique sodales. Nullam fringilla, metus id egestas pharetra, erat augue tincidunt nibh, a fringilla erat tortor eu tortor. Sed condimentum nibh eros, ut faucibus mi bibendum et. Cras diam lacus, viverra venenatis turpis nec, facilisis luctus neque. Cras fermentum magna ipsum, nec mollis tellus pulvinar vel. Vivamus eget semper libero. Nullam nibh sapien, pulvinar a porta euismod, blandit eget ipsum.
+        </h5>
+      <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat, enim eu finibus facilisis, lacus leo consectetur lectus, et euismod ligula purus scelerisque turpis. Sed ut nisl sed ex rutrum vehicula. Proin et metus eget mauris interdum maximus et sit amet elit. Sed faucibus orci eu lorem ornare, at tristique urna tincidunt. Morbi interdum commodo lacus vitae sagittis. Phasellus ante leo, mollis in magna in, porta faucibus ipsum. Aenean consequat leo ligula, in luctus turpis vulputate vitae. Donec leo erat, consequat eget massa sed, lacinia efficitur risus. Cras volutpat, massa sed egestas lobortis, urna sapien imperdiet diam, vitae lobortis urna odio nec elit. Quisque scelerisque massa quis tellus tristique sodales. Nullam fringilla, metus id egestas pharetra, erat augue tincidunt nibh, a fringilla erat tortor eu tortor. Sed condimentum nibh eros, ut faucibus mi bibendum et. Cras diam lacus, viverra venenatis turpis nec, facilisis luctus neque. Cras fermentum magna ipsum, nec mollis tellus pulvinar vel. Vivamus eget semper libero. Nullam nibh sapien, pulvinar a porta euismod, blandit eget ipsum.
+      </h5>
+        </div>
+      </div>
+    <aside>
+      <nav>
+        <ul>
+          <li class="button">
+           <a href="Index.html"> Index</a>
+          </li>
+          <li class="button">
+            <a href="assignmento.html"> Assignment1</a>
+           </li>
+           <li class="button">
+            <a href="assignmenttwo.html"> Assignment2</a>
+           </li>
+           <li class="button">
+            <a href="assignmentthr.html"> Assignment3</a>
+           </li>
+           <li class="button">
+            <a href="assignment4.html"> assignment4</a>
+           </li>
+        </ul>           
+      </nav>
+    </aside>  
+    </div>
+  </div>
+  
+</body>
+</html>

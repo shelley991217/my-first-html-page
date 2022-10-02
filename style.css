@@ -1,0 +1,16 @@
+h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+  font-style: italic;
+  color: dimgrey;
+  font-weight:lighter;
+}
+
+h5{
+  font-weight: lighter;
+  color:dimgrey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:justify;
+}
